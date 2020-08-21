@@ -1,0 +1,15 @@
+{
+  "name": "landing-gradients",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "live-server",
+    "build:tailwind": "tailwindcss build styles/global.css -o static/output.css"
+  },
+  "author": "Victor Mustar <victor.mustar@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss": "^1.7.2"
+  }
+}
