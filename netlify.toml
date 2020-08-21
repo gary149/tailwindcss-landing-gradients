@@ -1,5 +1,2 @@
 [build]
   command = "npm run build:tailwind"
-
-[context.production.environment]
-  NODE_ENV = "production"
