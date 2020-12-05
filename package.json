@@ -10,7 +10,8 @@
   "author": "Victor Mustar <victor.mustar@gmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^10.0.4",
     "live-server": "^1.2.1",
-    "tailwindcss": "^1.7.2"
+    "tailwindcss": "^2.0.1"
   }
 }

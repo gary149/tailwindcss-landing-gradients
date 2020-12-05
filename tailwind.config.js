@@ -12,11 +12,4 @@ module.exports = {
   },
   variants: {},
   plugins: [],
-  experimental: {
-    applyComplexClasses: true,
-    uniformColorPalette: true,
-    extendedSpacingScale: true,
-    defaultLineHeights: true,
-    extendedFontSizeScale: true,
-  },
 };
