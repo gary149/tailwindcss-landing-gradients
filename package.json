@@ -4,13 +4,12 @@
   "description": "",
   "scripts": {
     "dev": "live-server",
-    "build:tailwind": "tailwindcss build styles/global.css -o static/output.css",
+    "build:tailwind": "npx tailwindcss-cli@latest build styles/global.css -o static/output.css",
     "build": "NODE_ENV=production npm run build:tailwind"
   },
   "author": "Victor Mustar <victor.mustar@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^10.0.4",
     "live-server": "^1.2.1",
     "tailwindcss": "^2.0.1"
   }
